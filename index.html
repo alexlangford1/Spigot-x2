@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Guitar World</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="https://kit.fontawesome.com/0b110d5817.js"></script>
+        <link
+            href="https://fonts.googleapis.com/css?family=Montserrat|Permanent+Marker&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <h1 class="logo"><i class="fas fa-guitar fa-2x"></i>Guitar World</h1>
+        <div class="line">_________</div>
+        <div class="nav-ul">
+            <a href="#" class="a">HOME</a>
+            <a href="#" class="a">SHOP</a>
+            <a href="#" class="a">LESSONS</a>
+            <a href="#" class="a">ABOUT</a>
+            <a href="#" class="a none">CONTACT</a>
+        </div>
+        <div class="slideshow-container">
+            <div class="mySlides fade pics">
+                <img
+                    src="https://media.rainpos.com/5427/ss_5427_1669967_1_20180625171843.jpg"
+                    style="width:100%"
+                />
+            </div>
+            <div class="mySlides fade pics pic2"></div>
+            <div class="mySlides fade pics pic1"></div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br />
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+        <div class="lg-container">
+            <a href="#" class="sm-container three">
+                <div class="sm-comment">Guitars</div>
+            </a>
+            <a href="#" class="sm-container one">
+                <div class="sm-comment">Audio</div>
+            </a>
+            <a href="#" class="sm-container two">
+                <div class="sm-comment">Lessons</div>
+            </a>
+        </div>
+        <div class="about">
+            <div>
+                <h1 class="who">Who we are...</h1>
+                <p class="p">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Perspiciatis rerum laudantium maxime facere? Cupiditate
+                    dolor laboriosam fuga a voluptatibus ut cumque doloribus,
+                    impedit aspernatur, qui illum. Natus laborum blanditiis
+                    omnis. Lorem ipsum dolor sit, amet consectetur adipisicing
+                    elit. Quis, tenetur sapiente maiores consequuntur est odio
+                    aliquam tempora omnis reprehenderit, veritatis hic sequi
+                    dolor saepe laudantium natus doloribus inventore iste
+                    voluptatum?
+                </p>
+            </div>
+            <div class="pic"></div>
+        </div>
+        <section>
+            <div>
+                <h2>Store Hours</h2>
+                <span>
+                    Mon-Fri: 10:30AM-6:30PM
+                    <br />
+                    Sat: 11:30AM-5:30PM
+                </span>
+            </div>
+            <div>
+                <h2>Address</h2>
+                <span>
+                    9961 Interstate Commerce Dr #210,
+                    <br />
+                    Fort Myers, FL 33913
+                </span>
+            </div>
+            <div>
+                <h2>Telephone</h2>
+                <span>(321) 270-3503 ;)</span>
+            </div>
+        </section>
+        <footer class="footer">
+            <h5 class="h5">
+                <span>Home</span> | 
+                <span>Shop</span> | 
+                <span> Lessons </span> |
+                <span>About</span> | 
+                <span>Contact</span> |
+                <span>Terms and Conditions</span>
+            </h5>
+            <span class="bottom">Copyright &copy 2019 - Alex Langford</span>
+        </footer>
+        <script src="/index.js"></script>
+    </body>
+</html>
